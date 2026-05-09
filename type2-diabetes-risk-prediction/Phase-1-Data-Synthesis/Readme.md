@@ -15,18 +15,38 @@ This approach is used for:
 
 ---
 
-## 📊 Features Generated
+## 📊 Features in Dataset
 
-- Age (18–80 years)
-- BMI (18–40 range)
-- Insulin levels (10–200 µU/mL)
-- Glucose levels (70–200 mg/dL)
-- Blood Pressure (60–140 mmHg)
+The dataset includes the following attributes:
+
+- Age
+- Gender
+- BMI
+- Glucose Level
+- Insulin
+- Blood Pressure
+- Skin Thickness
+- Diabetes Pedigree Function
+- HbA1c
+- Cholesterol
+- Medication
+- Outcome (Target Variable)
+
+---
+
+## 🎯 Target Variable
+
+- **Outcome**
+  - 0 → No Diabetes
+  - 1 → Diabetes
+
+---
 
 ## 📁 Output
 
 - Synthetic dataset of 4001 records
 - Saved as CSV file
+- Used for preprocessing and model training
 
 ---
 
